@@ -95,6 +95,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: grey;
+    margin-bottom: 15px;
 }
 
 header nav a:hover {
@@ -141,14 +142,12 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* border: 1px solid black; */
+    
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
-    /* border: 1px solid black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
