@@ -65,11 +65,53 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* This is the code I will test*/
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.test {
+    border: 2px solid red;
+}
+
+/* All my header CSS for both Pages */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    margin-top: 40px;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+header .logo {
+    margin: 0 50px 0 0;
+}
+
+.top-large-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* This is where we mess with content */
 
 .top-content {
     display: flex;
